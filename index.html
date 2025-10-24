@@ -172,9 +172,11 @@
         <p>Design Decisions and Rationale:</p>
 
         <ul>
-          <li>RATIONALE_1</li>
-          <li>RATIONALE_2</li>
-          <li>RATIONALE_3</li>
+          <li><b>Score:</b> I give this visualization a score of <b>1.5</b> in terms of how earnest it is. There are aspects of the visual design, labels and annotation that definitely strike a persuasive tone. However, the data transformation and line graph are represented fairly and honestly.</li>
+          <li><b>Data Transformations:</b> The raw data (°C deviations from the 1951–1980 baseline) was transformed into a percentage change relative to the baseline. I believe that this makes the graph more persuasive because 14.3% rise sounds more dramatic than a 2 °C rise. The main line graph shows a 5-year rolling average to smooth out the line and annual noise and highlight the upward trend. I included the annual percent change line just to show how bad the spikes look in recent years. These transformations emphasize continuity and acceleration, reinforcing the narrative that warming is persistent.</li>
+          <li><b>Marks, Encoding and Visual Design:</b> The visualization uses a red color palette to evoke urgency and decode heat. The thick red line with the soft gradient visually exaggerates the upward trend. The use of a continuous line mark implies a stable, ongoing rise, while the shaded area encodes “warming” as positive.</li>
+          <li><b>Titles, Labels and Annotations:</b> The title, “Global Temperatures Are Rising Faster Than Ever”, sets a strong persuasive tone. The annotation at the most recent year highlights the peak temperature and reinforces the narrative of escalation. The subtitle clarifies that the data are relative to the 1951–1980 baseline, lending scientific credibility while keeping the focus on the rise. The dotted lines showing the 1 and 2 °C increases drives home the acceleration of the problem. Finally, the annotation stating that even a 1 or 2 °C can be catastrophic provides persuasive context, because without this knowledge, 1 or 2 degrees can sound little.</li>
+          <li><b>Summary:</b> Overall, I believe that this visualization adds some flare to drive the point home, but doesn’t do anything wildly deceptive. It doesn’t rely on distortion or misleading scales; rather, it uses subtle design elements like color, framing, and annotation to guide interpretation and drive the point home that global temperatures are rising rapidly.</li>
         </ul>
       </section>
 
@@ -189,16 +191,18 @@
         <p>Design Decisions and Rationale:</p>
 
         <ul>
-          <li>RATIONALE_1</li>
-          <li>RATIONALE_2</li>
-          <li>RATIONALE_3</li>
+          <li><b>Score:</b> I give this visualization a deception score of <b>-1</b>. It manipulates otherwise accurate data through framing and scaling choices that make the temperature changes appear negligible. The techniques are subtle enough to seem credible, but they significantly alter how the viewer interprets the overall trend.</li>
+          <li><b>Data Transformations:</b> The data in this chart represent year to year percentage changes in global temperature relative to the 1951-1980 baseline. This transformation completely distorts the interpretation by focusing on short-term fluctuations instead of the long-term pattern of warming. Although mathematically valid, expressing the data as percent change from the previous year minimizes the perceived impact of rising temperatures and hides the cumulative increase.</li>
+          <li><b>Marks, Encoding and Visual Design:</b> The visualization uses bars with alternating colors (blue for negative, orange for positive), emphasizing balance rather than escalation. The narrow vertical scale (set between –10% and +10%) compresses the variation, making all changes appear small. By using muted colors and symmetrical bars, the visual composition suggests that warming and cooling are equally common, downplaying the severity of the long-term trend.</li>
+          <li><b>Titles, Labels and Annotations:</b> The title, “Climate Change is a Hoax”, immediately frames the data with a dismissive and controversial tone, priming the audience to doubt scientific consensus. The subtitle, “Annual Global Temperature Changes Are Minimal”, further reinforces this perception. The annotation below the zero line, stating “Temperatures get cooler from year to year as well,” encourages the viewer to interpret normal variability as evidence against climate change. The dashed line marking the “highest annual change” redirects focus from the long-term pattern to an isolated outlier, strengthening the illusion of stability.</li>
+          <li><b>Summary:</b> This visualization uses technically correct data but intentionally misleading transformations and framing. By switching from cumulative temperature rise to annual percent changes, narrowing the y-axis, and using symmetrical bar colors, it makes the global temperature trend appear inconsequential. The rhetorical framing through the title and annotation reinforces this deceptive message, illustrating how subtle design decisions can dramatically shift public interpretation of the same dataset.</li>
         </ul>
       </section>
 
       <section>
         <h2>Final Reflection</h2>
 
-        <p>[WRITE FINAL REFLECTION PARAGRAPHS HERE.]</p>
+        <p>One of the reasons I really enjoy data science and want to build a career in this field is because I see data as the single source of truth — the numbers don’t lie. However, this assignment was eye-opening because it showed how easily visualizations can be twisted to serve any narrative. Both graphs in this report use the same dataset and are mathematically accurate, yet they tell opposite stories. The FOR visualization uses transformations and design choices that emphasize continuity and escalation, while the AGAINST visualization uses scaling and framing to minimize those same patterns. This experience taught me that data visualization carries both analytical and ethical responsibility — truth in data doesn’t always translate to truth in presentation.</p>
       </section>
     </main>
   </body>
